@@ -1,0 +1,31 @@
+File,Split,Regressor,R2 Score,,,,,,,
+5 deg.csv,30%RandomSplit,LR,0.835138109,,,,,,,
+5 deg.csv,30%RandomSplit,NN,0.995292952,,,,,,,
+5 deg.csv,30%RandomSplit,KNN,0.993603656,,,,5 Degree,,,
+5 deg.csv,30%RandomSplit,RF,0.99607035,,,LR,MLPR,KNNR,RFR,SVR
+5 deg.csv,30%RandomSplit,SVR,0.924731747,,T-30,0.835138109,0.995292952,0.993603656,0.99607035,0.924731747
+5 deg.csv,50%Split,LR,0.872352675,,T-50,0.872352675,0.997176592,0.998945596,0.999721635,0.928229542
+5 deg.csv,50%Split,NN,0.997176592,,,,,,,
+5 deg.csv,50%Split,KNN,0.998945596,,,,10 Degree,,,
+5 deg.csv,50%Split,RF,0.999721635,,,LR,MLPR,KNNR,RFR,SVR
+5 deg.csv,50%Split,SVR,0.928229542,,T-30,0.822692763,0.998680709,0.99943234,0.999774349,0.88881599
+10 deg.csv,30%RandomSplit,LR,0.822692763,,T-50,0.856899667,0.998099855,0.999074579,0.999780937,0.915764599
+10 deg.csv,30%RandomSplit,NN,0.998680709,,,,,,,
+10 deg.csv,30%RandomSplit,KNN,0.99943234,,,,15 Degree,,,
+10 deg.csv,30%RandomSplit,RF,0.999774349,,,LR,MLPR,KNNR,RFR,SVR
+10 deg.csv,30%RandomSplit,SVR,0.88881599,,T-30,0.823160263,0.99661887,0.999157571,0.999552477,0.925889541
+10 deg.csv,50%Split,LR,0.856899667,,T-50,0.817740552,0.998189599,0.99885144,0.99953456,0.927999352
+10 deg.csv,50%Split,NN,0.998099855,,,,,,,
+10 deg.csv,50%Split,KNN,0.999074579,,,,,,,
+10 deg.csv,50%Split,RF,0.999780937,,,,,,,
+10 deg.csv,50%Split,SVR,0.915764599,,,,,,,
+15 deg.csv,30%RandomSplit,LR,0.823160263,,,,,,,
+15 deg.csv,30%RandomSplit,NN,0.99661887,,,,,,,
+15 deg.csv,30%RandomSplit,KNN,0.999157571,,,,,,,
+15 deg.csv,30%RandomSplit,RF,0.999552477,,,,,,,
+15 deg.csv,30%RandomSplit,SVR,0.925889541,,,,,,,
+15 deg.csv,50%Split,LR,0.817740552,,,,,,,
+15 deg.csv,50%Split,NN,0.998189599,,,,,,,
+15 deg.csv,50%Split,KNN,0.99885144,,,,,,,
+15 deg.csv,50%Split,RF,0.99953456,,,,,,,
+15 deg.csv,50%Split,SVR,0.927999352,,,,,,,
